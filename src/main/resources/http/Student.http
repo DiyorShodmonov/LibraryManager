@@ -1,0 +1,31 @@
+### SAVE STUDENT
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{
+  "name": "Ma'rufchik",
+  "surname": "Zokirov",
+  "phone": "974255505"
+}
+
+### STUDENT LIST
+GET http://localhost:8080/student
+
+### GET STUDENT BY ID
+GET http://localhost:8080/student/1
+
+### DELETE STUDENT BY ID
+DELETE http://localhost:8080/student/1
+
+### UPDATE STUDENT
+PUT http://localhost:8080/student/1
+Content-Type: application/json
+
+{
+    "name": "Diyor",
+    "surname": "Shodmonov",
+    "phone": "+998943943433"
+}
+
+
+

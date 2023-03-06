@@ -1,0 +1,31 @@
+### SAVE BOOK
+POST http://localhost:8080/book
+Content-Type: application/json
+
+{
+  "title": "Spring Boot",
+  "author": "Ma'rufchik",
+  "publishYear": 2020
+}
+
+### BOOK LIST
+GET http://localhost:8080/book
+
+### GET BOOK BY ID
+GET http://localhost:8080/book/1
+
+### DELETE BOOK BY ID
+DELETE http://localhost:8080/book/1
+
+### UPDATE BOOK
+PUT http://localhost:8080/book/1
+Content-Type: application/json
+
+{
+  "title": "Spring Framework",
+  "author": "Ma'rufchik",
+  "publishYear": 2020
+}
+
+
+

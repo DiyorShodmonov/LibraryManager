@@ -1,0 +1,27 @@
+### SAVE STUDENT TAKE BOOK
+POST http://localhost:8080/student_book/1/2
+
+### RETURN BOOK
+PUT http://localhost:8080/student_book/2
+
+### GET STUDENT BOOK LIST
+GET http://localhost:8080/student_book
+
+### GET STUDENT BOOK BY ID
+GET http://localhost:8080/student_book/2
+
+### DELETE BOOK BY ID
+DELETE http://localhost:8080/book/1
+
+### UPDATE BOOK
+PUT http://localhost:8080/book/1
+Content-Type: application/json
+
+{
+  "title": "Spring Framework",
+  "author": "Ma'rufchik",
+  "publishYear": 2020
+}
+
+
+
